@@ -1,6 +1,6 @@
 FROM python:3.8.7-alpine
-RUN pip install requests
 COPY . /
-RUN chmod +x /entrypoint.sh
+RUN chmod +x /entrypoint.sh && \
+    pip install requests
 ENTRYPOINT ["/entrypoint.sh"]
 
