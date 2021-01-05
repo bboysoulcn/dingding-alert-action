@@ -1,6 +1,5 @@
 #!/bin/sh
 
-export
 
 if [ -z "$DING_SECRET" ]
 then
