@@ -25,4 +25,4 @@ fi
 
 
 
-python /main.py $DING_SECRET $DING_BASE_URL $MSG $TITLE
+/bin/python /main.py $DING_SECRET $DING_BASE_URL $MSG $TITLE
